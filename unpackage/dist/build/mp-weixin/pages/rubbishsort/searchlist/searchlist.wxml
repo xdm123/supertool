@@ -1,0 +1,1 @@
+<view><block wx:for="{{rubbishSearchData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="rubbish-list" data-index="{{index}}" data-event-opts="{{[['tap',[['tofinal',['$event']]]]]}}" bindtap="__e">{{''+item.name}}</view></block></view>

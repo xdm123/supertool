@@ -1,0 +1,53 @@
+
+.head-bg{
+	width:100%;
+	height:320rpx;
+}
+.final-head{
+	width:100%;
+	height:400rpx;
+	position:relative;
+}
+.lj-img{
+	width:160rpx;
+	height:160rpx;
+	position: absolute;
+	bottom:0rpx;
+	left:50%;
+	margin-left:-80rpx;
+}
+.rubbishname{
+	text-align: center;
+	font-size: 37rpx;
+	color: #666;
+	margin-top: 39rpx;
+}
+.rubbishtype{
+	text-align: center;
+	font-size: 50rpx;
+	color:#333;
+	margin-top: 30rpx;
+}
+.rubbish-zd{
+	width:80%;
+	padding:20rpx;
+	font-size: 28rpx;
+	color:#888;
+	margin:0 auto;
+	background:#f4f4f4;
+	margin-top: 30rpx;
+}
+.zd-item{
+	line-height: 38rpx;
+	width:90%;
+	margin:0 auto;
+	margin-bottom: 20rpx;
+}
+.zd-title{
+	margin-bottom: 20rpx;
+	margin-top: 10rpx;
+}
+.final-wrap{
+	padding-bottom: 50rpx;
+}
+

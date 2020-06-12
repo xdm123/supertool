@@ -1,0 +1,9 @@
+
+.rubbish-list{
+	width:90%;
+	margin:0 auto;
+	line-height: 80rpx;
+	color:#444;
+	border-bottom: 1px solid #eaeaea;
+}
+

@@ -1,0 +1,1 @@
+<view><image class="{{['wyy-img',id==4?'addwidth':'']}}" src="{{src}}" mode></image><view class="ctn">{{obj.content||''}}</view><block wx:if="{{id=='2'}}"><view class="source">{{"——"+(obj.source||'')}}</view></block><view data-event-opts="{{[['tap',[['nextfn',['$event']]]]]}}" class="next" bindtap="__e">下一条</view></view>

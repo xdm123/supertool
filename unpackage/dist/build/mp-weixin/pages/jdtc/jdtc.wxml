@@ -1,0 +1,1 @@
+<view><view class="title-text">{{"《"+dataobj.source+"》"}}</view><view class="chi">{{dataobj.dialogue}}</view><view class="eng">{{dataobj.english}}</view><view data-event-opts="{{[['tap',[['nextfn',['$event']]]]]}}" class="next" bindtap="__e">下一条</view></view>

@@ -1,0 +1,1 @@
+<view><block wx:if="{{shibieobj.imgurl}}"><image class="big-img" src="{{shibieobj.imgurl}}" mode="aspectFill"></image></block><block wx:else><image class="big-img-voice" src="../../../static/img/yy3.png" mode></image></block><view class="name">{{shibieobj.name}}</view><view class="tip">{{shibieobj.lajitip}}</view></view>

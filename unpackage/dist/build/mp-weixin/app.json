@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/rubbishsort/rubbishsort",
+    "pages/index/index",
+    "pages/tgrj/tgrj",
+    "pages/wyyrp/wyyrp",
+    "pages/jdtc/jdtc",
+    "pages/rubbishsort/knowledge/knowledge",
+    "pages/rubbishsort/searchlist/searchlist",
+    "pages/rubbishsort/rubbishfinal/rubbishfinal",
+    "pages/rubbishsort/allhotsearch/allhotsearch",
+    "pages/rubbishsort/shibiepage/shibiepage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

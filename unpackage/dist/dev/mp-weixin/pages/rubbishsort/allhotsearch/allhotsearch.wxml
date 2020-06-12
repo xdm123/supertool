@@ -1,0 +1,1 @@
+<view class="allhot-wrap"><scroll-view scroll-y="true"><view class="hot-wrap"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="hot-item" data-name="{{item.name}}" data-type="{{item.type}}" data-event-opts="{{[['tap',[['getres',['$event']]]]]}}" bindtap="__e">{{''+item.name+''}}</view></block></view></scroll-view></view>

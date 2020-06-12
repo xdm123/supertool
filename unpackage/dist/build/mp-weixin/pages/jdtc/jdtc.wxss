@@ -1,0 +1,1 @@
+.title-text{text-align:center;color:"#333";font-size:18px;font-weight:600;line-height:100rpx}.chi{padding:40rpx;color:#333;font-size:16px;line-height:50rpx;text-indent:40rpx}.eng{padding:40rpx;color:#333;font-size:16px;line-height:50rpx;text-indent:40rpx}.next{position:fixed;bottom:100rpx;width:100%;text-align:center;text-decoration:underline;font-size:14px;color:#87ceeb}
