@@ -1,0 +1,1 @@
+<view><block wx:for="{{historydata}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item"><view class="time">{{item.lsdate}}</view><view class="ctn">{{item.title}}</view></view></block></view>

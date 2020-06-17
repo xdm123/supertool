@@ -5,11 +5,14 @@ Vue.use(Vuex)
 
 
 const state = {
-	requesturl:'https://api.tianapi.com',
+	requesturl:'https://api.tianapi.com', //公共域名
 	key:'b642c7a4d53987e2dac60b013ff8ce70',
-	rubbishSearchData:'',
+	rubbishSearchData:'', 
 	finalobj:'',
-	shibieobj:''
+	shibieobj:'',
+	shibieimg:'', //植物图片识别图片
+	shibieobj:'', //植物识别返回数据
+	shibietype:''
 }
 
 export default new Vuex.Store({

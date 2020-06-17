@@ -10,7 +10,11 @@
     "pages/rubbishsort/rubbishfinal/rubbishfinal",
     "pages/rubbishsort/allhotsearch/allhotsearch",
     "pages/rubbishsort/shibiepage/shibiepage",
-    "pages/moretool/moretool"
+    "pages/moretool/moretool",
+    "pages/moretool/qushuiyin/qushuiyin",
+    "pages/moretool/zhiwu/zhiwu",
+    "pages/moretool/xzpd/xzpd",
+    "pages/moretool/historytoday/historytoday"
   ],
   "subPackages": [],
   "window": {
@@ -39,6 +43,9 @@
       }
     ]
   },
+  "uniStatistics": {
+    "enable": false
+  },
   "usingComponents": {},
-  "sitemapLocation": "sitemap84.json"
+  "sitemapLocation": "sitemap69.json"
 }

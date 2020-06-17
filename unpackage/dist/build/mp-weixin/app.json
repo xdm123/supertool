@@ -9,7 +9,12 @@
     "pages/rubbishsort/searchlist/searchlist",
     "pages/rubbishsort/rubbishfinal/rubbishfinal",
     "pages/rubbishsort/allhotsearch/allhotsearch",
-    "pages/rubbishsort/shibiepage/shibiepage"
+    "pages/rubbishsort/shibiepage/shibiepage",
+    "pages/moretool/moretool",
+    "pages/moretool/qushuiyin/qushuiyin",
+    "pages/moretool/zhiwu/zhiwu",
+    "pages/moretool/xzpd/xzpd",
+    "pages/moretool/historytoday/historytoday"
   ],
   "subPackages": [],
   "window": {
@@ -17,6 +22,29 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7D7E82",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/rubbishsort/rubbishsort",
+        "iconPath": "static/img/tab1.png",
+        "selectedIconPath": "static/img/tab1-select.png",
+        "text": "分类查询"
+      },
+      {
+        "pagePath": "pages/moretool/moretool",
+        "iconPath": "static/img/tab2.png",
+        "selectedIconPath": "static/img/tab2-select.png",
+        "text": "更多工具"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": false
   },
   "usingComponents": {},
   "sitemapLocation": "sitemap.json"

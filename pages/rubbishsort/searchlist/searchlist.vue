@@ -32,7 +32,6 @@
 			tofinal:function(e){
 				var index = e.currentTarget.dataset.index;
 				var obj = this.rubbishSearchData[index];
-				console.log(obj)
 				this.SET_FINAL_DATA(obj)
 				uni.navigateTo({
 					url:'../rubbishfinal/rubbishfinal'

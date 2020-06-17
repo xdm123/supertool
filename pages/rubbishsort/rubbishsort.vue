@@ -127,8 +127,6 @@
 						})
 					}
 				})
-				
-				
 			},
 			knowledgemore:function(){
 				uni.navigateTo({
@@ -330,7 +328,12 @@
 				_this.voicelajifenlei(voicefile)
 			});
 		},
-		
+		onShareAppMessage(res) {
+			return {
+				title: '垃圾分类工具',
+				path: '/pages/rubbishsort/rubbishsort'
+			}
+		}
 	}
 </script>
 
@@ -382,7 +385,7 @@
 	color:#fff;
 	text-align: center;
 	letter-spacing: 1px;
-	margin-top: 40rpx;
+	margin-top: 30rpx;
 	/* font-family:'STKaiti' */
 }
 .input-wrap{
@@ -392,7 +395,7 @@
 	align-items: center;
 	margin:0 auto;
 	border-radius: 10rpx;
-	margin-top:40rpx;
+	margin-top:25rpx;
 	background:#fff;
 	height:80rpx;
 }
@@ -401,8 +404,7 @@
 	margin:0 auto;
 	font-size: 30rpx;
 	color:#fff;
-	margin-top:50rpx;
-	margin-bottom: 20rpx;
+	margin-top:25rpx;
 }
 .input-wrap image{
 	width:40rpx;
@@ -439,7 +441,7 @@
 	flex-wrap: wrap;
 }
 .hot-item{
-	padding:10rpx 20rpx; 
+	padding:7rpx 20rpx; 
 	border:1px solid #fff;
 	border-radius: 30rpx;
 	margin-top: 20rpx;

@@ -41,7 +41,23 @@
 			"path" : "pages/moretool/moretool",
 			"style" : {"navigationBarTitleText": "更多工具"}
 		}
-	],
+	    ,{
+            "path" : "pages/moretool/qushuiyin/qushuiyin",
+            "style" : {"navigationBarTitleText": "视频去水印"}
+        }
+        ,{
+            "path" : "pages/moretool/zhiwu/zhiwu",
+            "style" : {"navigationBarTitleText": "识别结果"}
+        }
+        ,{
+            "path" : "pages/moretool/xzpd/xzpd",
+            "style" : {"navigationBarTitleText": "星座配对"}
+        }
+        ,{
+            "path" : "pages/moretool/historytoday/historytoday",
+            "style" : {"navigationBarTitleText": "历史上的今天"}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

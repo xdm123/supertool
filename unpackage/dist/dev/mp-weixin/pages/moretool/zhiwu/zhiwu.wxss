@@ -1,0 +1,52 @@
+
+.shibieimg{
+	width:400rpx;
+	height:400rpx;
+	display: block;
+	margin:40rpx auto;
+	border-radius: 40rpx;
+}
+.item{
+	width:90%;
+	margin:0 auto;
+	font-size: 14px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	line-height: 50rpx;
+}
+.title{
+	width:30%;
+	color:#292b33;
+	text-align: right;
+	font-weight: bold;
+}
+.ctn{
+	width:70%;
+	color:#8d8d8d;
+	text-align: left;
+}
+.item-title{
+	width:90%;
+	margin:0 auto;
+	font-size: 14px;
+	color:#292b33;
+	font-weight: bold;
+	line-height: 50rpx;
+	margin:20rpx 0;
+	text-align: center;
+}
+.item-ctn{
+	width:90%;
+	margin:0 auto;
+	font-size: 14px;
+	color:#8d8d8d;
+	line-height: 50rpx;
+}
+.item-bottom{
+	margin: 50rpx 0;
+}
+
